@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENTER INFO</title>
+</head>
+<body background="images/Grid Pattern .gif">
+  <center>
+  <font face="cursive" color="seagreen" size="6">Enter Info (Will not Save)</font>
+    <br><br><br>
+    <table border="1" cellpadding="10" bgcolor="green" width="200" align="center">
+        <tr>
+            <td align="center">
+                <font face="cursive" color="lightgreen">
+                    <h3>Credit Card Information</h3>  
+                    <form action="Last.htm" method="get">
+                        <label for="cardholder">Cardholder Name:</label><br>
+                        <input type="text" id="cardholder" name="cardholder" required><br><br>
+                        <label for="card-number">Card Number:</label><br>
+                        <input type="text" id="card-number" name="cardnumber" maxlength="16" required><br><br>
+                        <label for="expiry">Expiration Date (MM/YY):</label><br>
+                        <input type="text" id="expiry" name="expiry" maxlength="5" placeholder="MM/YY" required><br><br>
+                        <label for="cvv">CVV:</label><br>
+                        <input type="text" id="cvv" name="cvv" maxlength="3" required><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </font>
+            </td>
+        </tr>
+    </table>
+    </center>
+  </body>
+</html>
